@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+*::selection {
+  background-color: var(--color-primary-cyan);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1111px;
+  max-height: 1964px;
+  padding-top: 64px;
+  margin: auto;
+}
+
+body {
+  background-color: var(--color-secondary-very-light-grey);
+}
+
+.rotating-image {
+  position: relative;
+  overflow: hidden;
+}
+.rotating-image img {
+  object-fit: cover;
+  animation: rotate 9s linear infinite;
+  animation-delay: 10s;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

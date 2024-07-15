@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Wendel Veloso</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/pages/contact/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__container container rotating-image">
+        <a href="/pages/home/index.html">
+          <img src="/assets/logo-dark.svg" alt="Logo Portfolio" />
+        </a>
+        <ul>
+          <li class="item_header"><a href="/pages/home/index.html">home</a></li>
+          <li class="item_header"><a href="/pages/portfolio/index.html">portfolio</a></li>
+          <li class="item_header active"><a href="/pages/contact/index.html">contato</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+      <section class="main__container">
+        <div class="line_top"></div>
+        <div class="main__content">
+          <h1>Entre em Contato</h1>
+          <aside>
+            <p>
+              Eu adoraria escutar sobre seu trabalho atual e como eu poderia
+              ajudar. Atualmente estou procurando por um cargo e aberto para
+              várias oportunidades. Minha preferência é uma oportunidade em uma
+              empresa Britânica. Mas também estou feliz em escutar sobre
+              oportunidades remotas. Sou uma pessoa trabalhadora e positiva que
+              sempre fará as tasks com um senso de propósito e atenção aos
+              detalhes. Fique livre para checar meu perfis abaixo e entrar em
+              contato utilizando o formulário.
+            </p>
+            <div class="main__icons">
+              <a href="https://github.com/wendelveloso" target="_blank"
+                ><img src="/assets/icons/github-dark.svg" alt="github-dark"
+              /></a>
+              <a href="#"
+                ><img src="/assets/icons/twitter-dark.svg" alt="twitter-dark"
+              /></a>
+              <a href="https://www.linkedin.com/in/wendel-veloso-b2482228a/" target="_blank"
+                ><img src="/assets/icons/linkedin-dark.svg" alt="linkedin-dark"
+              /></a>
+            </div>
+          </aside>
+        </div>
+        <div class="line_bottom"></div>
+      </section>
+      <section class="main__container2">
+        <div class="main__content2">
+          <h1>Contato</h1>
+          <aside>
+            <form class="form-container" action="/submit " method="post">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" required /><br />
+
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required /><br />
+
+              <label for="age">Mensagem</label>
+              <textarea class="label-large"
+                id="message"
+                name="message"
+                rows="4"
+                cols="50"
+              ></textarea>
+              <br />
+              <a href="#" class="btn_contact btn_effect">
+                <p>Enviar</p>
+              </a>
+            </form>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer__container container">
+        <div class="footer__first-group-itens">
+          <a href="/pages/home/index.html">
+            <img src="/assets/logo-light.svg" alt="Logo Portfolio" />
+          </a>
+          <ul>
+            <li class="footer__item">
+                <a href="/pages/home/index.html">home</a>
+              </li>
+              <li class="footer__item">
+                <a href="/pages/portfolio/index.html">portfolio</a>
+              </li>
+              <li class="footer__item">
+                <a href="/pages/contact/index.html">contato</a>
+              </li>
+          </ul>
+        </div>
+        <div class="footer__icons">
+          <a href="https://github.com/wendelveloso" target="_blank"
+            ><img src="/assets/icons/github-light.svg" alt="github-light"
+          /></a>
+          <a href="#"
+            ><img src="/assets/icons/twitter-light.svg" alt="twitter-light"
+          /></a>
+          <a href="https://www.linkedin.com/in/wendel-veloso-b2482228a/" target="_blank"
+            ><img src="/assets/icons/linkedin-light.svg" alt="tinkedin-light"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+  <script src="../home/effects.js"></script>
+</html>

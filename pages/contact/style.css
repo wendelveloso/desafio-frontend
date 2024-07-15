@@ -1,0 +1,233 @@
+@import url(/css/variables.css);
+@import url(/css/global.css);
+
+
+.header__container {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 0px 20px 0px;
+}
+header {
+  font-family: var(--font-body);
+}
+.header__container ul {
+  list-style: none;
+  display: flex;
+}
+ul li.active {
+  color: var(--color-primary-cyan);
+}
+header ul > li {
+  padding-left: 20px;
+  padding-right: 3px;
+}
+header ul li:hover {
+  color: var(--color-primary-cyan);
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+
+
+main {
+  width: 1440px;
+  height: 938px;
+}
+.main__container {
+  width: 1110px;
+  height: 355px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.main__content {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  color: var(--color-primary-gray-dark-blue);
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+}
+.main__content aside > p {
+  width: 635px;
+  height: 180px;
+  color: var(--color-primary-gray-dark-blue);
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.8;
+}
+aside {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.line_top {
+  width: 1110px;
+  height: 1px;
+  opacity: 0.15;
+  background: var(--color-primary-gray-dark-blue);
+}
+.line_bottom {
+  width: 1110px;
+  height: 1px;
+  opacity: 0.15;
+  background: var(--color-primary-gray-dark-blue);
+}
+.main__container2 {
+  padding-top: 50px;
+}
+.main__content2 {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 635px;
+}
+.main__icons {
+  width: 104px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-container input,
+textarea {
+  height: 48px;
+  background-color: var(--color-primary-gray-dark-blue-01);
+  padding-left: 10px;
+  resize: none;
+  font-family: var(--font-body);
+  border: none;
+}
+.form-container textarea {
+    padding-top: 10px
+}
+
+.form-container > label {
+  color: var(--color-primary-gray-dark-blue);
+  font-family: "Public Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  opacity: 0.8;
+}
+.label-large {
+  height: 96px;
+}
+.btn_contact {
+  width: 200px;
+  height: 48px;
+  border: 1px solid var(--color-primary-gray-dark-blue);
+  background-color: var(--color-primary-dark-blue);
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_effect:hover {
+  background-color: var(--color-primary-dark-blue);
+  opacity: 0.6;
+  color: #fff;
+  transition: 0.6s;
+}
+.btn_contact > p {
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+
+footer {
+  color: #fff;
+  font-family: var(--font-body);
+  background-color: var(--color-primary-gray-dark-blue);
+}
+.footer__container {
+  padding: 23px 0px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1111px;
+}
+.footer__container ul {
+  list-style: none;
+  display: flex;
+}
+.footer__container ul > li {
+  padding-left: 48px;
+}
+.footer__icons {
+  display: flex;
+  align-items: center;
+}
+.footer__icons > a {
+  padding-left: 15px;
+}
+.footer__icons > a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.footer__first-group-itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer ul a:hover {
+  color: var(--color-primary-cyan);
+}
+
+.rotating-image {
+  position: relative;
+  overflow: hidden;
+}
+.rotating-image img {
+  object-fit: cover;
+  animation: rotate 9s linear infinite;
+  animation-delay: 10s;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

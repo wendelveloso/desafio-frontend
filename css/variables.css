@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400..700&family=Public+Sans:wght@100..900&display=swap');
+
+
+:root {
+    --color-primary-cyan: #5FB4A2;
+    --color-primary-dark-blue: #203a4c;
+    --color-primary-gray-dark-blue: #33323D;
+    --color-primary-gray-dark-blue-01: rgba(51, 50, 61, 0.1);
+    --color-secondary-very-light-grey: #fafafa;
+    --color-secondary-light-grey: #eaeaeb;
+    --font-header: "Ibarra Real Nova", serif;
+    --font-body: "Public Sans", sans-serif;
+
+}
