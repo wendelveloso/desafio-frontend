@@ -1,5 +1,5 @@
-
-
+@import url(/css/variables.css);
+@import url(/css/global.css);
 
 
 .header__container {
@@ -286,12 +286,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.btn_effect:hover {
-  background-color: var(--color-primary-dark-blue);
-  opacity: 0.6;
-  color: #eaeaeb;
-  transition: 0.6s;
-}
+
 .btn_contact > p {
   font-size: 12px;
   line-height: normal;

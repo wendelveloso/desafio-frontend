@@ -17,9 +17,18 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.btn:hover {
+  background-color: var(--color-primary-gray-dark-blue);
+  color: #eaeaeb;
+  transition: 0.6s;
+}
 button {
   cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--color-primary-gray-dark-blue);
+  color: #eaeaeb;
+  transition: 0.6s;
 }
 
 .container {
@@ -43,7 +52,6 @@ body {
   animation: rotate 9s linear infinite;
   animation-delay: 10s;
 }
-
 
 @keyframes rotate {
   0% {

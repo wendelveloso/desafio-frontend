@@ -1,5 +1,5 @@
-
-
+@import url(/css/variables.css);
+@import url(/css/global.css);
 
 
 .header__container {
@@ -51,10 +51,6 @@ main {
 .main__content {
   display: flex;
   justify-content: space-between;
-}
-.main__icons > a:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
 }
 h1 {
   color: var(--color-primary-gray-dark-blue);
@@ -112,6 +108,14 @@ aside {
   display: flex;
   justify-content: space-between;
 }
+.main__icons > a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.form-container input,
+textarea:focus {
+  border: var(--color-primary-gray-dark-blue);
+}
 .form-container input,
 textarea {
   height: 48px;
@@ -120,6 +124,10 @@ textarea {
   resize: none;
   font-family: var(--font-body);
   border: none;
+}
+.form-container input:focus,
+.form-container textarea:focus {
+  border: 2px solid var(--color-primary-gray-dark-blue);
 }
 .form-container textarea {
     padding-top: 10px
@@ -133,6 +141,7 @@ textarea {
   font-weight: 700;
   line-height: 30px;
   opacity: 0.8;
+  border: var(--color-primary-dark-blue);
 }
 .label-large {
   height: 96px;
@@ -154,11 +163,11 @@ textarea {
   justify-content: center;
   align-items: center;
 }
-.btn_effect:hover {
-  background-color: var(--color-primary-dark-blue);
-  opacity: 0.6;
+.btn:hover {
+  background-color: var(--color-primary-cyan);
   color: #fff;
   transition: 0.6s;
+  border: none;
 }
 .btn_contact > p {
   font-size: 12px;
