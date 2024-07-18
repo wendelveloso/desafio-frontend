@@ -1,5 +1,3 @@
-
-
 .header__container {
   font-size: 12px;
   font-style: normal;
@@ -14,7 +12,7 @@
 }
 header {
   font-family: var(--font-body);
-  background-color: var(--color-secondary-very-light-grey)
+  background-color: var(--color-secondary-very-light-grey);
 }
 .header__container ul {
   list-style: none;
@@ -36,6 +34,10 @@ header ul li:hover {
 
 
 
+.btn_major {
+  width: 175px;
+  height: 48px;
+}
 .container {
   max-height: 2894px;
 }
@@ -122,17 +124,9 @@ h2 {
   max-height: 500px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
-.btn_see-project {
-  width: 175px;
-  height: 48px;
-  border: 1px solid #33323d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  margin-top: auto;
-}
+
 .line_bottom {
   margin-top: 72px;
   width: 350px;
@@ -146,29 +140,11 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
-.btn_contact {
-  width: 168px;
+.btn_major {
+  width: 175px;
   height: 48px;
-  border: 1px solid #33323d;
-  color: #33323d;
-  font-family: "Public Sans";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.btn_contact > p {
-  font-size: 12px;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
 .main__container5 {
   padding: 0px 48px;
   margin-top: 88px;
@@ -183,9 +159,6 @@ h2 {
   font-weight: 700;
   letter-spacing: -0.357px;
 }
-
-
-
 
 footer {
   color: #fff;
@@ -232,4 +205,3 @@ footer {
 footer ul a:hover {
   color: var(--color-primary-cyan);
 }
-

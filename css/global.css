@@ -17,20 +17,14 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.btn:hover {
-  background-color: var(--color-primary-gray-dark-blue);
-  color: #eaeaeb;
-  transition: 0.6s;
-}
 button {
   cursor: pointer;
 }
-.btn:hover {
-  background-color: var(--color-primary-gray-dark-blue);
-  color: #eaeaeb;
-  transition: 0.6s;
-}
 
+.right_arrow,
+.left_arrow {
+  cursor: pointer;
+}
 .container {
   width: 100%;
   max-width: 1111px;
@@ -42,6 +36,68 @@ button {
 body {
   background-color: var(--color-secondary-very-light-grey);
 }
+
+.btn:hover {
+  background-color: var(--color-primary-gray-dark-blue);
+  color: #eaeaeb;
+  transition: 0.6s;
+}
+.btn_send:hover {
+  background-color: var(--color-primary-cyan);
+  color: #eaeaeb;
+  transition: 0.6s;
+}
+.btn_major {
+  background-color: var(--color-secondary-very-light-grey);
+  border: 1px solid var(--color-primary-dark-blue);
+  color: var(--color-primary-dark-blue);
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.6s, color 0.6s;
+}
+
+.btn_send {
+  background-color: var(--color-primary-dark-blue);
+  width: 164px;
+  height: 48px;
+  color: #fff;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.6s, color 0.6s;
+}
+.btn_about-me {
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 2px;
+  width: 204px;
+  height: 48px;
+  border: 1px solid #33323d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 113px;
+  text-transform: uppercase;
+  background-color: var(--color-secondary-very-light-grey);
+  transition: background-color 0.6s, color 0.6s;
+}
+
 
 .rotating-image {
   position: relative;

@@ -12,17 +12,27 @@ item.addEventListener('click', selectItem)
 )
 
 
-document.querySelectorAll('.nextProjectLink').forEach(link => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault(); 
+function addFadeOutClickListener(divClass) {
+  document.querySelectorAll(divClass).forEach(div => {
+    div.addEventListener('click', function(event) {
+      const link = div.querySelector('.nextProjectLink');
+      if (link) {
+        event.preventDefault(); 
 
-    document.body.classList.add('fade-out');
+        document.body.classList.add('fade-out');
 
-    setTimeout(function() {
-      window.location.href = event.target.closest('a').href;
-    }, 600); 
+        setTimeout(function() {
+          window.location.href = link.href;
+        }, 600); 
+      }
+    });
   });
-});
+}
+
+
+addFadeOutClickListener('.left_arrow');
+addFadeOutClickListener('.right_arrow');
+
 
 const style = document.createElement('style');
 style.innerHTML = `
