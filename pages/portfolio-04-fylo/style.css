@@ -94,7 +94,7 @@ body {
 }
 .right_arrow {
   display: flex;
-  width: 180px;
+  width: 162px;
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;

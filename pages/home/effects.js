@@ -1,16 +1,3 @@
-let items = document.querySelectorAll('.item_header')
-
-function selectItem(){
-    items.forEach((item) => 
-        item.classList.remove('active')
-    )
-    this.classList.add('active')
-}
-
-items.forEach((item) => 
-item.addEventListener('click', selectItem)
-)
-
 
 function addFadeOutClickListener(divClass) {
   document.querySelectorAll(divClass).forEach(div => {

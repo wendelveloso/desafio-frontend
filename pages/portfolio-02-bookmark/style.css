@@ -83,7 +83,7 @@ body {
 }
 .right_arrow {
   display: flex;
-  width: 180px;
+  width: 162px;
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
@@ -241,23 +241,7 @@ h3 {
   justify-content: space-between;
   margin-top: 53px;
 }
-.btn_visit {
-  margin-top: 32px;
-  width: 168px;
-  height: 48px;
-  border: 1px solid #33323d;
-  color: #33323d;
-  font-family: "Public Sans";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .line_bottom {
   margin-top: 48px;
   width: 350px;
