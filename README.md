@@ -10,5 +10,5 @@
 </a>
 
 
-###### tags: `front-end` `módulo 1` `HTML` `CSS` `desafio`
+###### tags: `front-end` `módulo 6` `HTML` `CSS` `desafio`
 
