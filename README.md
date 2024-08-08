@@ -1,8 +1,7 @@
-![](https://i.imgur.com/xG74tOh.png)
+# Landing Page Portfolio
 
-# Desafio | Front-end - Módulo 6
 
->### https://wendelveloso.github.io/desafio-frontend/pages/home/index.html
+>### https://wendelveloso.github.io/landing-page-portfolio/pages/home/index.html
 
 <br>
 <a href="https://www.figma.com/file/smlcPHa2T5pXsJVgDr7ct3/Desafio-front-academy-1?type=design&node-id=0%3A1&mode=design&t=YJeSRXOLmH6ARU0y-1">
@@ -10,5 +9,5 @@
 </a>
 
 
-###### tags: `front-end` `módulo 6` `HTML` `CSS` `desafio`
+###### tags: `front-end` `HTML` `CSS`
 
